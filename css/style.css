@@ -1,0 +1,152 @@
+/* CSS Document */
+a:hover {text-decoration: none;}
+/****nav***/
+body{font-family: 微软雅黑}
+/****nav开始***/
+p ,h1,h2,h3,h4,h5,h6{ font-family:微软雅黑}
+body{ overflow-x:hidden;}
+*{ margin:0px ; padding:0px;}
+.navbar-inverse .navbar-nav>li>a {font-size: 15px; font-family: "方正报宋简体"}
+.navbar{ transition:all 1.0s; height: 60px; }
+.navbar-inverse .navbar-brand {font-weight: bold; font-size: 20px;}
+.navbar-nav{ margin:0.5px -15px; }
+.navbar-header{ height: 60px; }
+.navbar-brand{ padding: 20px 15px; }
+.jumbotron{ padding-top: 60px; }
+/****nav结束***/
+/***banner开始*****/
+.jumbotron{ height:834px; background:url(../imgs/contest2016/firstbg2.jpg) no-repeat center center;}
+.banner{ background:url(../imgs/contest2016/firstbg.jpg) no-repeat ; height:110%; position:relative;}
+.banner_top_logo{ height:60px; width:8%; position:absolute; top:20px; left:85%;}
+.banner_top_logo a{ display:block; width:100%; height:30px; border:1px solid white; line-height:30px; text-align:center; color:white;}
+.banner_word{ width:100%; height:130px; margin-top:6%}
+.banner_word p{ text-align:center; font-size:30px; font-weight:200; color:white}
+.banner_logo{ display:block; margin:0 auto;  width:200px; height:70px; margin-top:4%;}
+.banner_word2{ height:150px; width:32%; margin-top:11%; margin-left:43%}
+.banner_word2 p{ text-align:center; font-size:2.5em; font-weight:200; color:white}
+.banner_word2_p a{ display:block; float:left; height:40px; width:40%; border:1px solid #f50; margin-left:5%; font-size:18px; line-height:40px; color:#f50; }
+.banner_word3{ height:80px; width:100%; margin:0 auto; margin-top:5%; background:url(../imgs/contest2016/next.gif) no-repeat bottom center;}
+.banner_word3 p{ text-align:center; color:white; font-size:25px;}
+/**banner结束***/
+/****notice开始*****/
+.bg_notce{background:#CCC;FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9FFF0E', endColorstr='#ffffff');/*ie*/
+background: -webkit-linear-gradient(left, #000, #C90, #F93, #c90, #000);
+background: -o-linear-gradient(left, #000, #C90, #F93, #c90, #000);
+background: linear-gradient(to right, #000, #C90, #F93, #c90, #000);
+height:40px;}
+.notice{margin:auto;height:40px;width: 100%;position:relative;}
+.notice h1{ display:block;float:left;font-size:15px;color: #FFF ;margin-top:0px;height:40px;line-height:40px;}
+.notice_roll {  height:40px;width:100%; margin:auto;left:80px; line-height:40px;position:absolute;float:left}
+.notice_roll li{ float:left;list-style:none;width:200px;}
+.notice_div1{width:850px;height:40px;line-height:40px;overflow:hidden;white-space:nowrap;}
+.notice_div2{width:auto; height:20px;font-size:12px;}
+.notice_div2 a{ color:#FFF;}
+/***notice结束***/
+.bg_content{background:url(../imgs/contest2016/body_bg.jpg) no-repeat center center fixed;background-size:100% 100%; }
+.row-fluid{ position:relative; }
+.container{ padding:0 50px;}
+.box{ border-left:5px solid #f50;  }
+.box h1{ height:56px; line-height:56px; position:absolute; background:url(../imgs/contest2016/h1listbg.png) no-repeat; left:23px; padding:0 66px; color:#f50;}
+.span4{ color:white; float:left; }
+/***大赛说明开始***/
+.details{ padding-top:100px; padding-left:80px; padding-bottom:50px; color:white; font-family:微软雅黑;line-height:30px;}
+/***大赛说明结束**/
+/****获奖名单开始****/
+.winners{ padding:80px 50px;}
+.winners p{ color:#f50; font-size:2em;}
+.winners_person{height:230px; width:100%; }
+.winners_one{ height:100%; width:33%; float:left;}
+.infor_one{ height:100%; width:46%; float:right; padding-left:3%}
+.infor_one h3{ color:#f50; font-size:18px; font-weight:bold; }
+.infor_one span{color:#f50}
+.infor_one p{ color:white; font-size:1.4em;}
+.winners_two{ margin-left:0.5%;}
+/****获奖名单结束*****/
+
+/*****大赛奖项开始****/
+.awards_money{height:165px; width:100%; border-bottom:2px dotted #3E434D; margin-top:10px;}
+.awards{ padding:80px 50px;}
+.awards_money h4{ color:white; margin-left:9%; font-weight:bold;}
+.awards_set{ padding-left: 20px; padding-top:20px; color: white; font-size: 10px;}
+
+/*****大赛奖项结束****/
+/****大赛流程开始*****/
+.flow_img{ width:100%;}
+.flow_img img{ width:90%; padding-top:80px; padding-left:20px;}
+.flow_span12{ padding:50px 80px; color:white;}
+
+/****大赛流程结束*****/
+
+/****报名参赛开始***/
+.apply{ padding:80px 80px}
+.apply_one span{ float:left; font-size:45px; font-weight:bold; color:white;}
+.get_account{ padding-top:15px; padding-left:40px; color:white;  font-family:微软雅黑;}
+.get_account a{ color:#f50;}
+/***报名参赛结束***/
+/****其他入口开始****/
+.other_entry{ padding:100px 80px; margin-bottom:80px;}
+.other_abc a { display:block; height:100px; width:20%; float:left; color:white; margin-right:13%;}
+.other_abc a p{ text-align:center; padding-top:10px; font-size: 16px;}
+.other_abc a img { padding-left:22px; padding-top:16px;}
+/***其他入口结束******/
+
+/***footer开始****/
+.bg_footer{ background-color:black;}
+.footer{  background-color:black; border-top:5px solid #f50; }
+.bd_footer{ padding-top:70px; padding-bottom:80px;}
+.footer_one{ width:33%; float:left; height:150px;}
+.footer_one h2 span{ padding-left:15px;}
+.footer_one p{ padding-left:70px; color:white; font-size:14px; line-height:12px; color:#4E4E4E}
+.footer_two p{ padding-left:60px; padding-top:25px;}
+.footer_two img{ padding-left:38px;}
+.footer_three p{ padding-left:0px; padding-top:6px; color:#4E4E4E}
+.footer_three img{ padding-top:8px;}
+.last_img{ display:block; height:30px; width:30px; }
+/****footer结束****/
+/**nav隐藏部分开始**/
+/*
+body{ position:relative;}
+.hide_button{ height:30px; width:30px; background-color:green; position:absolute; right:20%;top:15%; display: none; }*/
+/**nav隐藏部分结束**/
+
+@media screen and (min-width:1024px){
+.month_com{ line-height:20px;font-size:14px;font-family:微软雅黑;}
+.month_com span{ float:left;font-size:22px; padding-top:2px;}
+.details{  font-size:16px;}
+.get_account{  font-size:14px;}
+}
+
+@media screen and (max-width:1024px){
+.navbar{ height: 100px; }
+.navbar-inverse .navbar-nav>li>a {font-size: 25px; }
+.nav>li{ background-color: black;  height: 80px; line-height: 80px; border-bottom: 1px solid white; }
+.navbar-inverse .navbar-brand {font-size: 30px;}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{ max-height: 800px; }
+.navbar-toggle .icon-bar+.icon-bar{ margin-top:10px;  }
+.navbar-toggle{ padding: 10px 25px; margin-top: 28px; }
+.navbar-nav>li>a{ padding-top: 35px; }
+.navbar-nav{ margin:0.5px -15px; }
+.navbar-header{ height: 98px; }
+.navbar-brand{ padding: 42px 15px; }
+.jumbotron{ padding-top: 100px; }
+.banner_word2_p a{ display:block; float:left; height:40px; width:40%; border:1px solid #f50; margin-left:5%; font-size:18px; line-height:40px; color:#f50; }
+.banner_word3{ margin-top:12%;}
+.banner_word2 p{ font-size:2em; margin-top:8%;}
+.banner_word2{ margin-left:55%}
+.other_abc a img { padding-left:45px; padding-top:16px;}
+.month_com span img{ width:8%;}
+.month_com span { font-size:20px;}
+.month_com{ line-height:30px;}
+.notice{ width: 100%;}
+.notice h1{ margin-left: 2px;}
+.notice_roll{left: 0px;width: 100%;}
+.notice_div1{width: 80%; margin: 0 auto; }
+/*
+.nav{ display:none;}
+.hide_button{ display: block; }
+#nav_ul{ float: left; }
+#nav_ul li{ float:none; }*/
+}
+
+
+
